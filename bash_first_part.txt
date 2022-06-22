@@ -1,0 +1,31 @@
+1) Посмотреть где я -- pwd
+2) Создать папку -- mkdir namedir
+3) Зайти в папку -- cd namedir
+4) Создать 3 папки -- mkdir name1 name2 name3
+5) Зайти в любоую папку -- (указать абсолютный путь, например:) cd course_VadimKs/group_29_free/name1
+6) Создать 5 файлов (3 txt, 2 json) -- touch namef1.txt namef2.txt namef3.txt namef4.json namef5.json
+7) Создать 3 папки -- mkdir name1 name2 name3
+8. Вывести список содержимого папки -- ls -la, ls -l, ls 
+9) + Открыть любой txt файл -- cat namef1.txt, nano namef1.txt
+10) + написать туда что-нибудь, любой текст. -- cat >> namef1.txt 
+11) + сохранить и выйти -- cat >> namef1.txt, enter в конце, ctrl+C
+12) Выйти из папки на уровень выше -- cd ..
+—
+13) переместить любые 2 файла, которые вы создали, в любую другую папку. -- mv name1/namef1.txt name2/namef1.txt|mv name1/namef4.json name2/namef4.json
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку. -- cp name1/namef2.txt name3/namef2copy.txt|cp name1/namef3.txt name3/namef3copy.txt
+15) Найти файл по имени -- find /Users/alena/course_VadimKs -name namef2.txt
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает. -- tail -f namef2.txt
+17) вывести несколько первых строк из текстового файла -- head -n 4 namef2.txt
+18) вывести несколько последних строк из текстового файла -- tail -n 3 namef2.txt
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает. -- less long.txt
+20) вывести дату и время -- date +%D' '%T
+=========
+
+Задание *
+1) Отправить http запрос на сервер.
+http://162.55.220.72:5005/terminal-hw-request
+    curl http://162.55.220.72:5005/terminal-hw-request
+    curl 'http://162.55.220.72:5005/get_method?name=Alena&age=24'
+
+
+
