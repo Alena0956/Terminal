@@ -1,0 +1,16 @@
+#!/bin/bash
+# Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+# Дополнительно создадим и в конце удалим директорию, чтобы не засорять ваш ПК
+
+mkdir new_dir_script
+cd new_dir_script
+mkdir nameone nametwo namethree
+cd nameone
+touch namef1.txt namef2.txt namef3.txt namef4.json namef5.json
+mkdir namedir1 namedir2 namedir3
+ls -la
+mv namef1.txt namedir1/namef1.txt|mv namef5.json namedir1/namef5.json
+rm -r ../../new_dir_script
+
+# Для запуска скрипта введите в терминале: chmod +x ./script1.txt
+
